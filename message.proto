@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message Request {
+  string input_text = 1;
+}
+
+message Response {
+  string output_text = 1;
+}
+
+service Gpt4Service {
+  rpc GenerateResponse(Request) returns (Response) {}
+}
