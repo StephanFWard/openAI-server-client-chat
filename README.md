@@ -1,7 +1,7 @@
 # openAI-server-client-chat
-  simplified example demonstrating how to use gRPC in Python to create a client-server application where a Python script interacts with the GPT-4 language model hosted on a server
+  Simplified example demonstrating how to use gRPC in Python to create a client-server application where a Python script interacts with the GPT-4 language model hosted on a server
 
-  This example demonstrates a basic client-server interaction using gRPC in Python, where the server uses the GPT-4 language model to generate responses to input text received from the client. You can extend it further by handling multiple concurrent requests, implementing error handling, and integrating with real-world applications.
+  This example demonstrates a basic client-server interaction using gRPC in Python, where the server uses the GPT-4 language model to generate responses to input text received from the client. You can extend it further by handling multiple concurrent requests, implementing error handling, and integrating with real-world applications. 
 
   Clone the repository:
   git clone https://github.com/your-username/openAI-server-client-chat.git
